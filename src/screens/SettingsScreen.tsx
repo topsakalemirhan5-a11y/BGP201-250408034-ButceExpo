@@ -13,7 +13,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { format } from 'date-fns';
 import { useBudgetStore } from '../store/useBudgetStore';
 import { useThemeStore, ThemeMode } from '../store/useThemeStore';
-import { useColors, Colors } from '../theme';
+import { useColors, Colors } from '../constants/theme';
 
 const modes: [ThemeMode, string][] = [
   ['system', 'Sistem'],

@@ -13,7 +13,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 import { useBudgetStore } from '../store/useBudgetStore';
 import { formatTL, toKurus } from '../utils/money';
 import { TransactionType } from '../types';
-import { useColors, Colors } from '../theme';
+import { useColors, Colors } from '../constants/theme';
 
 export default function RecurringScreen() {
   const { recurring, categories, addRecurring, removeRecurring } = useBudgetStore();

@@ -16,7 +16,7 @@ import { tr } from 'date-fns/locale';
 import { useBudgetStore } from '../store/useBudgetStore';
 import { formatTL, toKurus } from '../utils/money';
 import { Transaction, TransactionType } from '../types';
-import { useColors, Colors } from '../theme';
+import { useColors, Colors } from '../constants/theme';
 
 type Filter = 'all' | TransactionType;
 

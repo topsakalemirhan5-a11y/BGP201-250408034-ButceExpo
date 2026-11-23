@@ -13,7 +13,7 @@ import { useBudgetStore } from '../store/useBudgetStore';
 import { monthlySummary } from '../utils/stats';
 import { formatTL, toKurus } from '../utils/money';
 import { TransactionType } from '../types';
-import { useColors, Colors } from '../theme';
+import { useColors, Colors } from '../constants/theme';
 
 const dayOptions: [number, string][] = [
   [0, 'Bugün'],

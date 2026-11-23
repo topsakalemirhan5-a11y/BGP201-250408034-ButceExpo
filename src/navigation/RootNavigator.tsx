@@ -8,7 +8,7 @@ import BudgetsScreen from '../screens/BudgetsScreen';
 import StatsScreen from '../screens/StatsScreen';
 import RecurringScreen from '../screens/RecurringScreen';
 import SettingsScreen from '../screens/SettingsScreen';
-import { useColors, useIsDark } from '../theme';
+import { useColors, useIsDark } from '../constants/theme';
 
 const Tab = createBottomTabNavigator();
 

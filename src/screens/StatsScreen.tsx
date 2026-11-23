@@ -14,7 +14,7 @@ import { tr } from 'date-fns/locale';
 import { useBudgetStore } from '../store/useBudgetStore';
 import { monthlySummary, spentByCategory } from '../utils/stats';
 import { formatTL } from '../utils/money';
-import { useColors, useIsDark, Colors } from '../theme';
+import { useColors, useIsDark, Colors } from '../constants/theme';
 
 const chartWidth = Dimensions.get('window').width - 64;
 

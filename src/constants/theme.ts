@@ -1,5 +1,5 @@
 import { useColorScheme } from 'react-native';
-import { useThemeStore } from './store/useThemeStore';
+import { useThemeStore } from '../store/useThemeStore';
 
 export const light = {
   bg: '#f8fafc',

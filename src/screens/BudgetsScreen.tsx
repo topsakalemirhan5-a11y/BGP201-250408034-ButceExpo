@@ -14,7 +14,7 @@ import { useBudgetStore } from '../store/useBudgetStore';
 import { spentByCategory } from '../utils/stats';
 import { formatTL, toKurus } from '../utils/money';
 import { Category } from '../types';
-import { useColors, Colors } from '../theme';
+import { useColors, Colors } from '../constants/theme';
 
 const palette = ['#ef4444', '#f97316', '#eab308', '#22c55e', '#14b8a6', '#3b82f6', '#a855f7', '#ec4899'];
 
